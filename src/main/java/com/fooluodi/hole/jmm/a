@@ -1,0 +1,11 @@
+memory = allocate();
+ctorInstance(memory);
+instance = memory;
+
+
+
+memory = allocate();
+instance = memory;
+
+//此时对象还没完成初始化!
+ctorInstance(memory);
